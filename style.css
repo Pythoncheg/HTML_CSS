@@ -1,12 +1,54 @@
-h2 {
-    color: rgb(22, 188, 7);
-}
-p {
-    color: rgb(84, 22, 184);
-}
-.menu {
-    color: rgb(10, 31, 105);
+body {
+    font-family: sans-serif;
 }
 a {
-    color: rgb(8, 41, 146);
+    text-decoration: none;
+}
+.nav__link {
+    color: cornflowerblue;
+    font-size: 25px;
+    line-height: 20px;
+}
+.title {
+    color: #8887d7;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.admin__img {
+    border-radius: 30px;
+}
+.img__in__catalog {
+    border-radius: 40px;
+}
+.input__field {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.form__button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
 }
